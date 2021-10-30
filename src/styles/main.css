@@ -1,0 +1,44 @@
+@tailwind base;
+
+@tailwind components;
+
+* {
+  user-select: none;
+}
+
+p, li, td {
+  font-size: 1rem;
+}
+
+.btn {
+  @apply text-gray-300 py-2 px-4 rounded font-bold bg-blue-600;
+}
+
+.btn:hover {
+  @apply text-gray-400;
+}
+
+.btn:focus {
+  @apply outline-none ring;
+}
+
+.light * {
+  
+    background: whitesmoke!important;
+    color: black!important;
+  }
+
+.footer {
+  border-top: #292d30 2px solid;
+}
+
+.content {
+  min-height: 50vh;
+  padding-top: 3rem;
+}
+
+.aboutPara {
+  margin: 0 auto!important;
+  max-width: 1024px;
+}
+@tailwind utilities;
