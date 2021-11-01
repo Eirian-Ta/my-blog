@@ -7,7 +7,7 @@ type IFooterProps = {
 };
 
 const Footer = (props: IFooterProps) => (
-  <div className="w-full bg-dark-bg-lighter">
+  <div className="footer w-full bg-dark-bg-lighter">
     <footer className="max-w-screen-xl py-12 mx-auto text-white">
       {props.children}
 
