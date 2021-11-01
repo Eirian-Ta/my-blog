@@ -13,7 +13,7 @@ type IBlogCardProps = {
 };
 
 const BlogCard = (props: IBlogCardProps) => (
-  <div className="rounded-lg overflow-hidden bg-dark-bg-lighter transform hover:-translate-y-1">
+  <div className="shadow-md rounded-lg overflow-hidden bg-dark-bg-lighter transform hover:-translate-y-1">
     <Link href="/posts/[slug]" as={`/posts/${props.slug}`}>
       <a className="flex flex-col h-full">
         <img className="w-full" src={props.image} alt={`Preview ${props.title}`} />
